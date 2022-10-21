@@ -1,34 +1,60 @@
-# Team Blog Hub
+# [Team Blog Hub](https://tech.howtelevision.co.jp/)
 
-![Demo](https://user-images.githubusercontent.com/34590683/96832331-8c289400-1479-11eb-9466-f24d30860a24.png)
+ブログのRSSのURLを登録することで、チームメンバーの投稿を一覧にまとめて表示します。
+Zenn、Qiita、Medium、note、はてなブログなど、RSSフィードを取得できるサイトであれば、メンバーは好きな場所に投稿できます。
+## Usage
 
-企業/チームのためのブログ・スターターです。Forkしてご自由にお使いください。
+### 自分のブログやアカウントを登録する
 
-ブログのRSSのURLを登録することで、チームメンバーの投稿を一覧にまとめて表示します。Zenn、Qiita、Medium、note、はてなブログなど、RSSフィードを取得できるサイトであれば、メンバーは好きな場所に投稿できます。
+[member.ts](./members.ts) に追加します。
 
-詳しくは下記の記事をご覧ください。
-
-[チーム個々人のテックブログをRSSで集約するサイトを作った →](https://zenn.dev/catnose99/articles/cb72a73368a547756862)
-
-## Demo
-https://team-blog-hub.vercel.app
-
-## Development
-```bash
-$ yarn install
-$ yarn build
-$ yarn dev
+```typescript
+  {
+    id: "kentrino",
+    name: " Kento Haneda",
+    role: "CTO",
+    bio:
+      "KotlinとかTypeScriptとかRustが好きなCTO",
+    avatarSrc: "/avatars/kentrino.png",
+    sources: [
+      "https://qiita.com/kentrino/feed",
+      "https://zenn.dev/kentrino/feed",
+    ],
+    twitterUsername: "_kentrino",
+    githubUsername: "kentrino",
+    excludeUrlRegex: "530b50b0edfd1da40aea"
+  },
 ```
 
-- サイトの基本設定は`site.config.ts`で行います。
-- メンバーのプロフィールやRSSの登録は`members.ts`で行います。
-- 配色を変更するには`src/styles/variables.scss`を書き換えます。
-- ロゴなどの画像を変更するには`public`内のファイルを置き換えます。
+登録したい項目のみで OK です。
 
-その他、ご自由にコードを書き換えてください。
+## Requirements
+
+- Node.js
+- Yarn
+
+## Development
+
+```bash
+yarn install
+yarn build
+yarn dev
+```
 
 ## Deployment
-VercelやNetlifyにデプロイすることを推奨します。`yarn build`を実行することで、RSSからの投稿データの取得とサイトのビルドが行われます。1日に1回などの頻度で自動デプロイするのが良いかもしれません。
+
+Netlify
+
+`main` ブランチへのコミットが自動反映されます。
+
+## Credit
+
+[catnose](https://github.com/catnose99)
 
 ## Licence
+
 MIT
+
+## References
+
+- [チーム個々人のテックブログをRSSで集約するサイトを作った](https://zenn.dev/catnose99/articles/cb72a73368a547756862)
