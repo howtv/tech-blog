@@ -3,7 +3,7 @@ import { Member } from "@src/types";
 export const members: Member[] = [
   {
     id: "howtelevision",
-    name: " Howtelevision",
+    name: " HowTelevision",
     avatarSrc: "/avatars/howtelevision.png",
     sources: [
       "https://blog.howtelevision.co.jp/feed",
