@@ -45,5 +45,13 @@ export const members: Member[] = [
     bio: "Yeah!",
     avatarSrc: "/avatars/doarakko.png",
     sources: ["https://qiita.com/Doarakko/feed", "https://zenn.dev/peperoncicicino/feed"],
+  },
+  {
+    id: "MSHR-Dec",
+    name: "Masahiro Ogawa",
+    role: "Developer",
+    bio: "SRE",
+    avatarSrc: "/avatars/MSHR-Dec.png",
+    sources: ["https://zenn.dev/mshr_dec/feed"],
   }
 ];
