@@ -6,7 +6,7 @@ export const config = {
   },
   siteRoot:
     process.env.NODE_ENV === "production"
-      ? "https://team-blog-hub.vercel.app"
+      ? "https://tech.howtelevision.co.jp"
       : "http://localhost:3000",
   headerLinks: [
     {
