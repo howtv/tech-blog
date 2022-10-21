@@ -37,5 +37,13 @@ export const members: Member[] = [
     sources: ["https://qiita.com/Syoitu/feed"],
     // excludeUrlRegex: "n3a59e3cdd820",
     // twitterUsername: "catnose99",
+  },
+  {
+    id: "MSHR-Dec",
+    name: "Masahiro Ogawa",
+    role: "Developer",
+    bio: "SRE",
+    avatarSrc: "/avatars/MSHR-Dec.png",
+    sources: ["https://zenn.dev/mshr_dec/feed"],
   }
 ];

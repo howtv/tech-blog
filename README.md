@@ -33,9 +33,17 @@ Zenn、Qiita、Medium、note、はてなブログなど、RSSフィードを取�
 - Node.js
 - Yarn
 
+## Optional
+- nodenv
+  - `Node.js 16.15.1`で動作確認取れているため nodenv で固定すると良いかもです
+
 ## Development
 
 ```bash
+mkdir -p "$(nodenv root)/plugins"
+git clone https://github.com/pine/nodenv-yarn-install.git "$(nodenv root)/plugins/nodenv-yarn-install"
+nodenv install 16.15.1
+nodenv local 16.15.1
 yarn install
 yarn build
 yarn dev
