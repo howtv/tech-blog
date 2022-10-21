@@ -2,6 +2,16 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
+    id: "howtelevision",
+    name: " Howtelevision",
+    avatarSrc: "/avatars/howtelevision.png",
+    sources: [
+      "https://blog.howtelevision.co.jp/feed",
+    ],
+    twitterUsername: "howtelevision",
+    githubUsername: "howtv",
+  },
+  {
     id: "kentrino",
     name: " Kento Haneda",
     role: "CTO",
