@@ -39,14 +39,6 @@ export const members: Member[] = [
     // twitterUsername: "catnose99",
   },
   {
-    id: "doarakko",
-    name: "Yuki Tanaami",
-    role: "Developer",
-    bio: "Yeah!",
-    avatarSrc: "/avatars/doarakko.png",
-    sources: ["https://qiita.com/Doarakko/feed", "https://zenn.dev/peperoncicicino/feed"],
-  },
-  {
     id: "MSHR-Dec",
     name: "Masahiro Ogawa",
     role: "Developer",
