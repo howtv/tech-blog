@@ -37,13 +37,5 @@ export const members: Member[] = [
     sources: ["https://qiita.com/Syoitu/feed"],
     // excludeUrlRegex: "n3a59e3cdd820",
     // twitterUsername: "catnose99",
-  },
-  {
-    id: "doarakko",
-    name: "Yuki Tanaami",
-    role: "Developer",
-    bio: "Yeah!",
-    avatarSrc: "/avatars/doarakko.png",
-    sources: ["https://qiita.com/Doarakko/feed", "https://zenn.dev/peperoncicicino/feed"],
   }
 ];
