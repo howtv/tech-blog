@@ -1,0 +1,21 @@
+name: Build Please
+
+on:
+  schedule:
+    - cron: '15 12 * * 1,3'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configure git
+        shell: bash
+        run: |
+          git config --global user.email "tech.blog@howtelevision.jp"
+          git config --global user.name "GithubActions(${GITHUB_ACTOR})"
+      - name: Commit empty
+        shell: bash
+        run: |
+          git commit --allow-empty -m "build please"
+          git push origin main

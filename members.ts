@@ -44,6 +44,9 @@ export const members: Member[] = [
     role: "Developer",
     bio: "SRE",
     avatarSrc: "/avatars/MSHR-Dec.png",
-    sources: ["https://zenn.dev/mshr_dec/feed"],
+    sources: [
+      "https://zenn.dev/mshr_dec/feed",
+      "https://qiita.com/MSHR-Dec/feed"
+    ],
   }
 ];
