@@ -34,7 +34,10 @@ export const members: Member[] = [
     role: "Developer",
     bio: "Hedgehog.",
     avatarSrc: "/avatars/syoitu.png",
-    sources: ["https://qiita.com/Syoitu/feed"],
+    sources: [
+      "https://qiita.com/Syoitu/feed",
+      "https://zenn.dev/pyhrinezumi/feed",
+    ],
     // excludeUrlRegex: "n3a59e3cdd820",
     // twitterUsername: "catnose99",
   },
