@@ -51,5 +51,13 @@ export const members: Member[] = [
       "https://zenn.dev/mshr_dec/feed",
       "https://qiita.com/MSHR-Dec/feed"
     ],
+  },
+  {
+    id: "EN",
+    name: "Eita Nawaji",
+    role: "Developer",
+    bio: "data-analytics, data-enginering, data-scientist, machine-learning",
+    avatarSrc: "/avatars/nawajie.png",
+    sources: ["https://qiita.com/21EN/feed"],
   }
 ];
