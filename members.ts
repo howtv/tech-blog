@@ -59,5 +59,17 @@ export const members: Member[] = [
     bio: "data-analytics, data-enginering, data-scientist, machine-learning",
     avatarSrc: "/avatars/nawajie.png",
     sources: ["https://qiita.com/21EN/feed"],
-  }
+  },
+  {
+    id: "rrih",
+    name: "Ryohei Kawahara",
+    role: "Developer",
+    bio: "origami",
+    avatarSrc: "/avatars/rrih.png",
+    sources: [
+      "https://zenn.dev/ro/feed",
+      "https://qiita.com/rrih/feed",
+    ],
+    githubUsername: "rrih",
+  },
 ];
