@@ -53,6 +53,14 @@ export const members: Member[] = [
     ],
   },
   {
+    id: "EN",
+    name: "Eita Nawaji",
+    role: "Developer",
+    bio: "data-analytics, data-enginering, data-scientist, machine-learning",
+    avatarSrc: "/avatars/nawajie.png",
+    sources: ["https://qiita.com/21EN/feed"],
+  },
+  {
     id: "rrih",
     name: "Ryohei Kawahara",
     role: "Developer",
