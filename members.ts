@@ -34,7 +34,10 @@ export const members: Member[] = [
     role: "Developer",
     bio: "Hedgehog.",
     avatarSrc: "/avatars/syoitu.png",
-    sources: ["https://qiita.com/Syoitu/feed"],
+    sources: [
+      "https://qiita.com/Syoitu/feed",
+      "https://zenn.dev/pyhrinezumi/feed",
+    ],
     // excludeUrlRegex: "n3a59e3cdd820",
     // twitterUsername: "catnose99",
   },
@@ -44,7 +47,10 @@ export const members: Member[] = [
     role: "Developer",
     bio: "SRE",
     avatarSrc: "/avatars/MSHR-Dec.png",
-    sources: ["https://zenn.dev/mshr_dec/feed"],
+    sources: [
+      "https://zenn.dev/mshr_dec/feed",
+      "https://qiita.com/MSHR-Dec/feed"
+    ],
   },
   {
     id: "EN",
