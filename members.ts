@@ -51,5 +51,17 @@ export const members: Member[] = [
       "https://zenn.dev/mshr_dec/feed",
       "https://qiita.com/MSHR-Dec/feed"
     ],
-  }
+  },
+  {
+    id: "rrih",
+    name: "Ryohei Kawahara",
+    role: "Developer",
+    bio: "origami",
+    avatarSrc: "/avatars/rrih.png",
+    sources: [
+      "https://zenn.dev/ro/feed",
+      "https://qiita.com/rrih/feed",
+    ],
+    githubUsername: "rrih",
+  },
 ];
