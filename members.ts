@@ -77,7 +77,7 @@ export const members: Member[] = [
     name: "Mariko Suga",
     role: "Developer",
     bio: "front-end",
-    avatarSrc: "/avatars/TTT00x.png",
+    avatarSrc: "/avatars/TTT00x.jpg",
     sources: ["https://qiita.com/TTT00x/feed"],
   },
 ];
