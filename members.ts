@@ -72,4 +72,12 @@ export const members: Member[] = [
     ],
     githubUsername: "rrih",
   },
+  {
+    id: "TTT00x",
+    name: "Mariko Suga",
+    role: "Developer",
+    bio: "front-end",
+    avatarSrc: "/avatars/TTT00x.png",
+    sources: ["https://qiita.com/TTT00x/feed"],
+  },
 ];
