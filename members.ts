@@ -80,4 +80,12 @@ export const members: Member[] = [
     avatarSrc: "/avatars/TTT00x.jpg",
     sources: ["https://qiita.com/TTT00x/feed"],
   },
+  {
+    id: "tora96",
+    name: "Ryo Kobashiri",
+    role: "Developer",
+    bio: "anonymous",
+    avatarSrc: "/avatars/tora96.png",
+    sources: ["https://zenn.dev/tora96/feed"],
+  },
 ];
