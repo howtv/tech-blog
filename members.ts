@@ -96,4 +96,12 @@ export const members: Member[] = [
     avatarSrc: "/avatars/59k.jpeg",
     sources: ["https://zenn.dev/fafafa/feed"],
   },
+  {
+    id: "katahira_k",
+    name: "Keita Katahira",
+    role: "Developer",
+    bio: "Rails / Vue / React",
+    avatarSrc: "/avatars/katahira_k.jpg",
+    sources: ["https://zenn.dev/katahira_k/feed"],
+  }
 ];
