@@ -88,4 +88,12 @@ export const members: Member[] = [
     avatarSrc: "/avatars/tora96.png",
     sources: ["https://zenn.dev/tora96/feed"],
   },
+  {
+    id: "fafafa",
+    name: "59k",
+    role: "Developer",
+    bio: "anonymous",
+    avatarSrc: "/avatars/59k.jpeg",
+    sources: ["https://zenn.dev/fafafa/feed"],
+  },
 ];
