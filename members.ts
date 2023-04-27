@@ -42,17 +42,6 @@ export const members: Member[] = [
     // twitterUsername: "catnose99",
   },
   {
-    id: "MSHR-Dec",
-    name: "Masahiro Ogawa",
-    role: "Developer",
-    bio: "SRE",
-    avatarSrc: "/avatars/MSHR-Dec.png",
-    sources: [
-      "https://zenn.dev/mshr_dec/feed",
-      "https://qiita.com/MSHR-Dec/feed"
-    ],
-  },
-  {
     id: "EN",
     name: "Eita Nawaji",
     role: "Developer",
