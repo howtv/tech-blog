@@ -92,5 +92,13 @@ export const members: Member[] = [
     bio: "Rails / Vue / React",
     avatarSrc: "/avatars/katahira_k.jpg",
     sources: ["https://zenn.dev/katahira_k/feed"],
+  },
+  {
+    id: "masa5555",
+    name: "Nemoto Masaya",
+    role: "Developer",
+    bio: "front-end, back-end",
+    avatarSrc: "/avatars/masa5555.png",
+    sources: ["https://zenn.dev/ms5", "https://qiita.com/ms5"]
   }
 ];
