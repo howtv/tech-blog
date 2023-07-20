@@ -99,6 +99,6 @@ export const members: Member[] = [
     role: "Developer",
     bio: "front-end, back-end",
     avatarSrc: "/avatars/masa5555.png",
-    sources: ["https://zenn.dev/ms5", "https://qiita.com/ms5"]
+    sources: ["https://zenn.dev/ms5/feed", "https://qiita.com/ms5/feed"]
   }
 ];
